@@ -5,6 +5,12 @@
     "jest": true
   },
   
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -21,6 +27,7 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
+  
   "ignorePatterns": [
     "dist/",
     "build/"
