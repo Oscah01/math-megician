@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/math-megician/static/css/main.7eda75ab.css",
+    "main.js": "/math-megician/static/js/main.ad7ead65.js",
+    "index.html": "/math-megician/index.html",
+    "main.7eda75ab.css.map": "/math-megician/static/css/main.7eda75ab.css.map",
+    "main.ad7ead65.js.map": "/math-megician/static/js/main.ad7ead65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eda75ab.css",
+    "static/js/main.ad7ead65.js"
+  ]
+}
