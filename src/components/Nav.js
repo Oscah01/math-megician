@@ -11,8 +11,8 @@ import Calculator from './Calculator';
 const Nav = () => (
   <>
     <header>
-      <h1>Math Magicians</h1>
-      <nav>
+      <h1 className="brand-logo left logo_postion hide-on-small-only">Math Magicians</h1>
+      <nav className="nav-wrapper orange">
         <Link to="/">Home</Link>
         <Link to="/Calculator">Calculator</Link>
         <Link to="/Quote">Quote</Link>
