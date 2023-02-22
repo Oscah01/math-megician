@@ -15,7 +15,7 @@ const Nav = () => (
       <nav className="nav-wrapper orange">
         <Link to="/">Home</Link>
         <Link to="/Calculator">Calculator</Link>
-        <Link to="/Quote">Quote</Link>
+        <Link to="/Quote">Quotes</Link>
       </nav>
     </header>
     <Routes>
