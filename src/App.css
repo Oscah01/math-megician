@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #151e3d;
+  color: #fff;
+}
+
+#root {
+  padding: 0 30px;
+
+  --primary: #bc4123;
+  --secondary: #369a14;
+}
+
+table {
+  width: 100%;
+}
+
+tr:not(.last-row) {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+input[type="button"] {
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.output {
+  margin-top: 3px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  text-align: end;
+  box-sizing: border-box;
+  width: 99%;
+  margin-left: 0.5%;
+  border: 3px ridge;
+  padding: 18px 10px;
+  background-color: rgb(180, 181, 177);
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.last-column input {
+  background-color: rgb(255, 166, 0);
+}
+
+header {
+  padding-top: 2%;
+  justify-content: space-between;
+  margin-bottom: 17vh;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px;
+}
+
+.active {
+  background-color: var(--primary);
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.calc {
+  height: 70vh;
+  display: grid;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.calc form {
+  border-radius: 12px;
+  width: 80%;
+  background-color: rgb(180, 181, 177);
+  border: 3px solid rgb(180, 181, 177);
+}
+
+.calc h3 {
+  font-size: 25px;
+}
+
+.quote {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  text-align: center;
+  border: 3px solid;
+  width: 50%;
+  height: 40%;
+  border-radius: 20px 20px 20px 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 45%;
+}
