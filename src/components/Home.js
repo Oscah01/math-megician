@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="home">
-    <h2>Welcome to my page</h2>
+    <h2 style={{ color: 'var(--primary)' }}>Welcome to my page</h2>
     <p>
       This is an app built using React
       that enables users do mathematical
