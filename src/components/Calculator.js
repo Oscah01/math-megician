@@ -20,7 +20,7 @@ const Calculator = () => {
   return (
     <>
       <div className="calc">
-        <h3>Let&apos;s do some Math!!</h3>
+        <h3 style={{ color: 'var(--primary)' }}>Let&apos;s do some Math!!</h3>
         <form action="#">
           <div className="output">
             {!total && !next && !operation ? 0 : [total, operation, next]}

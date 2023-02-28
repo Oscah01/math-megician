@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  Routes,
-  Route,
-  Link,
-} from 'react-router-dom';
+import { Routes, Route, NavLink } from 'react-router-dom';
 import Home from './Home';
 import Quote from './Quote';
 import Calculator from './Calculator';
@@ -13,9 +9,9 @@ const Nav = () => (
     <header>
       <h1 className="brand-logo left logo_postion hide-on-small-only">Math Magicians</h1>
       <nav className="nav-wrapper orange">
-        <Link to="/">Home</Link>
-        <Link to="/Calculator">Calculator</Link>
-        <Link to="/Quote">Quotes</Link>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/Calculator">Calculator</NavLink>
+        <NavLink to="/Quote">Quotes</NavLink>
       </nav>
     </header>
     <Routes>
